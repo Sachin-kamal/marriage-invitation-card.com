@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neha (Deepti) &amp; Sachin | 11.12.2026</title>
+<meta name="description" content="Neha (Deepti) weds Sachin — 11th December 2026, R.J. Garden, Kanpur">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Mulish:wght@300;400;500;600;700&family=Noto+Serif+Devanagari:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=6">
+</head> 
+<body>
+  
+<!-- ================= INTRO / SEAL OVERLAY ================= -->
+<div class="intro" id="intro">
+  <div class="intro__ring"></div> 
+  <div class="intro__mandala" aria-hidden="true"></div>
+  <div class="intro__content">
+    <img class="ganesh" src="assets/ganesh-ji.png" alt="Shri Ganesh ji" width="120" height="157">
+    <p class="ganesh__salutation">&#2405; &#2384; &#2358;&#2381;&#2352;&#2368; &#2327;&#2339;&#2375;&#2358;&#2366;&#2351; &#2344;&#2350;&#2307; &#2405;</p>
+    <p class="ganesh__mantra">
+      वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।<br>
+      निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥
+    </p>
+    <div class="intro__hairline"><span></span></div>
+    <p class="intro__eyebrow">आप सादर आमंत्रित हैं</p>
+    <p class="intro__eyebrow-sub">You are cordially invited</p>
+    <div class="intro__names">
+      <span>NEHA (DEEPTI)</span>
+      <span class="intro__amp">&amp;</span>
+      <span>SACHIN</span>
+    </div>
+    <button class="seal" id="openInvite" aria-label="Open the invitation">
+      <span class="seal__ring"></span>
+      <span class="seal__text">Open<br>the Invitation</span>
+    </button>
+    <div class="intro__hairline intro__hairline--bottom"><span></span></div>
+    <p class="intro__footer">R.J.&nbsp;Garden &middot; Kanpur &middot; 11.12.2026</p>
+  </div>
+  <div class="intro__petals" aria-hidden="true"></div>
+</div>
+
+<!-- ================= BACKGROUND MUSIC ================= -->
+<audio id="bgMusic" loop preload="auto">
+  <source src="assets/bg-music.mp3" type="audio/mpeg">
+  <source src="assets/bg-music.ogg" type="audio/ogg">
+</audio>
+
+<button class="music-toggle" id="musicToggle" aria-pressed="false" aria-label="Play background music">
+  <span class="music-toggle__bars">
+    <span></span><span></span><span></span>
+  </span>
+</button>
+
+<div id="page" class="page"> 
+
+  <!-- ================= HERO ================= -->
+  <header class="hero" id="hero">
+    <div class="hero__bg" style="background-image:url('assets/couple-1.png')"></div>
+    <div class="hero__scrim"></div>
+    <div class="garland garland--top" aria-hidden="true"></div>
+    <img class="hero__ganesh" src="assets/ganesh-ji.png" alt="" aria-hidden="true">
+    <div class="hero__inner">
+      <p class="eyebrow eyebrow--light">Shubh Vivah &middot; शुभ विवाह</p>
+      <h1 class="hero__title">
+        <span class="hero__name">NEHA (DEEPTI)</span>
+        <span class="hero__and">weds</span>
+        <span class="hero__name">SACHIN</span>
+      </h1>
+      <p class="hero__date">11<sup>th</sup> December, 2026 &middot; Kanpur</p>
+      <a href="#story" class="scroll-cue" aria-label="Scroll to explore">
+        <span></span>
+      </a>
+    </div>
+  </header>
+
+  <div class="garland garland--divider" aria-hidden="true"></div>
+
+  <!-- ================= INTRO NOTE / STORY ================= -->
+  <section class="section note reveal" id="story">
+    <div class="note__mark">&#10047;</div>
+    <p class="note__text">
+      With the blessings of our elders and the joy of our families,
+      we invite you to witness the union of two hearts &mdash;
+      four days of colour, music, and tradition, ending in a promise
+      kept for a lifetime.
+    </p>
+    <div class="couple-photo-strip">
+      <img src="assets/couple-2.png" alt="Sachin and Neha (Deepti)" loading="lazy">
+      <img src="assets/couple-3.png" alt="Sachin and Neha (Deepti)" loading="lazy">
+      <img src="assets/couple-4.png" alt="Sachin and Neha (Deepti)" loading="lazy">
+    </div>
+  </section>
+
+  <div class="garland garland--divider" aria-hidden="true"></div>
+
+  <!-- ================= FAMILIES ================= -->
+  <section class="section families reveal" id="families">
+    <p class="eyebrow">With the Blessings Of</p>
+    <h2 class="section__title">Our Families</h2>
+    <div class="families__grid">
+      <article class="family-card">
+        <p class="family-card__label">Bride</p>
+        <h3 class="family-card__name">Neha (Deepti)</h3>
+        <p class="family-card__parent">Daughter of</p>
+        <p class="family-card__parents">Shri Mahendra Ji<br>&amp; Smt. Prabha Ji</p>
+      </article>
+      <div class="families__divider">
+        <span class="families__ring"></span>
+      </div>
+      <article class="family-card">
+        <p class="family-card__label">Groom</p>
+        <h3 class="family-card__name">Sachin</h3>
+        <p class="family-card__parent">Son of</p>
+        <p class="family-card__parents">Late Shri Maharam Ji<br>&amp; Smt. Ramrati Ji</p>
+      </article>
+    </div>
+  </section>
+
+  <div class="garland garland--divider" aria-hidden="true"></div>
+
+  <!-- ================= EVENTS TIMELINE ================= -->
+  <section class="section events reveal" id="events">
+    <p class="eyebrow">Four Days of Celebration</p>
+    <h2 class="section__title">The Festivities</h2>
+
+    <div class="timeline">
+
+      <article class="event" data-event="haldi">
+        <div class="event__date">
+          <span class="event__day">9</span>
+          <span class="event__month">DEC</span>
+        </div>
+        <div class="event__body">
+          <span class="event__icon">&#127804;</span>
+          <h3 class="event__title">Haldi &amp; Mehndi</h3>
+          <p class="event__desc">Turmeric blessings and henna artistry begin the celebration &mdash; come in your brightest yellows.</p>
+          <p class="event__meta">Wednesday, 9th December 2026</p>
+        </div>
+      </article>
+
+      <article class="event" data-event="sangeet">
+        <div class="event__date">
+          <span class="event__day">10</span>
+          <span class="event__month">DEC</span>
+        </div>
+        <div class="event__body">
+          <span class="event__icon">&#127932;</span>
+          <h3 class="event__title">Sangeet</h3>
+          <p class="event__desc">An evening of music, dance and mischief as both families take the floor.</p>
+          <p class="event__meta">Tuesday, 10th December 2026</p>
+        </div>
+      </article>
+
+      <article class="event" data-event="baraat">
+        <div class="event__date">
+          <span class="event__day">11</span>
+          <span class="event__month">DEC</span>
+        </div>
+        <div class="event__body">
+          <span class="event__icon">&#127942;</span>
+          <h3 class="event__title">Baraat</h3>
+          <p class="event__desc">The groom's procession departs from <strong>19B, Ratanpur</strong> at <strong>6:00 PM</strong>, dancing its way to R.J. Garden.</p>
+          <p class="event__meta">Friday, 11th December 2026 &middot; 6:00 PM</p>
+        </div>
+      </article>
+
+      <article class="event" data-event="wedding">
+        <div class="event__date">
+          <span class="event__day">11</span>
+          <span class="event__month">DEC</span>
+        </div>
+        <div class="event__body">
+          <span class="event__icon">&#128142;</span>
+          <h3 class="event__title">Wedding Ceremony</h3>
+          <p class="event__desc">Sacred vows exchanged around the holy fire at R.J. Garden, Kanpur.</p>
+          <p class="event__meta">Friday, 11th December 2026</p>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Countdown -->
+    <div class="countdown" id="countdown">
+      <p class="countdown__label">Counting down to the Baraat</p>
+      <div class="countdown__grid">
+        <div class="countdown__unit"><span id="cd-days">--</span><small>Days</small></div>
+        <div class="countdown__unit"><span id="cd-hours">--</span><small>Hours</small></div>
+        <div class="countdown__unit"><span id="cd-mins">--</span><small>Mins</small></div>
+        <div class="countdown__unit"><span id="cd-secs">--</span><small>Secs</small></div>
+      </div>
+      <button class="btn btn--ghost" id="addCalendar">+ Add to Calendar</button>
+    </div>
+  </section>
+
+  <div class="garland garland--divider" aria-hidden="true"></div>
+
+  <!-- ================= VENUE ================= -->
+  <section class="section venue reveal" id="venue">
+    <div class="venue__photo">
+      <span class="corner corner--tl" aria-hidden="true"></span>
+      <span class="corner corner--br" aria-hidden="true"></span>
+      <img src="assets/venue.jpg" alt="R.J. Garden, the wedding venue, lit up at night" loading="lazy">
+    </div>
+    <div class="venue__info">
+      <p class="eyebrow">Where We'll Celebrate</p>
+      <h2 class="section__title">R.J. Garden</h2>
+      <p class="venue__address">
+        Maksooda Bad, Panki,<br>
+        Kanpur &ndash; 208020
+      </p>
+      <a class="btn btn--solid" href="https://maps.app.goo.gl/kwUopQnsev7oig3S8" target="_blank" rel="noopener">
+        Get Directions
+      </a>
+    </div>
+  </section>
+
+  <div class="garland garland--divider" aria-hidden="true"></div>
+
+  <!-- ================= RSVP / BLESSING ================= -->
+  <section class="section blessing" id="blessing">
+    <!-- <div class="garland garland--top garland--flip" aria-hidden="true"></div> -->
+    <p class="eyebrow eyebrow--light">Our Warmest Invitation</p>
+    <h2 class="blessing__title">Come, Bless the Beginning<br>of Our Forever</h2>
+    <p class="blessing__names">Neha (Deepti) &amp; Sachin</p>
+    <p class="blessing__sub">11<sup>th</sup> December 2026 &middot; R.J. Garden, Kanpur</p>
+  </section>
+
+  <footer class="footer">
+    <p>Made with love for our wedding &middot; 2026</p>
+  </footer>
+
+</div>
+
+<script src="script.js?v=6"></script>
+</body>
+</html>
